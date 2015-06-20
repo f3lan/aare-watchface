@@ -1,0 +1,51 @@
+{
+  "uuid": "4526868f-5b92-4590-b45a-4d0085351ea0",
+  "shortName": "Aare",
+  "longName": "Aare Watchface",
+  "companyName": "F3lan",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_TEMPERATURE": 0,
+    "KEY_A_TEMPERATURE": 1,
+    "KEY_A_FLOW": 2,
+    "KEY_A_HEIGHT": 3,
+    "KEY_LOCATION": 4
+  },
+  "capabilities": [
+    "location"
+  ],
+  "resources": {
+    "media": [
+	  {
+		"type": "font",
+		"name": "FONT_COURIER_NEW_BOLD_42",
+		"file": "fonts/COURIER_NEW_BOLD.ttf"
+	  },
+	  {
+		"type": "font",
+		"name": "FONT_COURIER_NEW_BOLD_24",
+		"file": "fonts/COURIER_NEW_BOLD.ttf"
+	  },
+	  {
+		"type": "font",
+		"name": "FONT_COURIER_NEW_BOLD_16",
+		"file": "fonts/COURIER_NEW_BOLD.ttf"
+	  },
+	  {
+		"type": "font",
+		"name": "FONT_COURIER_NEW_12",
+		"file": "fonts/COURIER_NEW.ttf"
+	  },
+	  {
+		"type": "font",
+		"name": "FONT_COURIER_NEW_10",
+		"file": "fonts/COURIER_NEW.ttf"
+	  }
+	]
+  }
+}
