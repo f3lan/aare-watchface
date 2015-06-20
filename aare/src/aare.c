@@ -75,7 +75,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_date_layer, "December 31");
 
   // Create Location TextLayer
-  s_location_layer = text_layer_create(GRect(5, 135, 134, 15));
+  s_location_layer = text_layer_create(GRect(5, 150, 134, 15));
   text_layer_set_background_color(s_location_layer, GColorBlack);
   text_layer_set_text_color(s_location_layer, GColorWhite);
   text_layer_set_text(s_location_layer, "...");
@@ -87,25 +87,25 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_weather_temperature_layer, "...");
 
   // Create Aare TextLayer
-  s_a_description_layer = text_layer_create(GRect(5, 75, 139, 15));
+  s_a_description_layer = text_layer_create(GRect(5, 80, 139, 15));
   text_layer_set_background_color(s_a_description_layer, GColorBlack);
   text_layer_set_text_color(s_a_description_layer, GColorWhite);
   text_layer_set_text(s_a_description_layer, "Aare:");
 
   // Create Aare Temperature TextLayer
-  s_a_temperature_layer = text_layer_create(GRect(5, 90, 139, 15));
+  s_a_temperature_layer = text_layer_create(GRect(5, 95, 139, 15));
   text_layer_set_background_color(s_a_temperature_layer, GColorBlack);
   text_layer_set_text_color(s_a_temperature_layer, GColorWhite);
   text_layer_set_text(s_a_temperature_layer, "Temperature: ... °C");
 
   // Create Aare Flow TextLayer
-  s_a_flow_layer = text_layer_create(GRect(5, 105, 139, 15));
+  s_a_flow_layer = text_layer_create(GRect(5, 110, 139, 15));
   text_layer_set_background_color(s_a_flow_layer, GColorBlack);
   text_layer_set_text_color(s_a_flow_layer, GColorWhite);
   text_layer_set_text(s_a_flow_layer, "Flow: ... m^3/s");
 
   // Create Aare Height TextLayer
-  s_a_height_layer = text_layer_create(GRect(5, 120, 139, 15));
+  s_a_height_layer = text_layer_create(GRect(5, 125, 139, 15));
   text_layer_set_background_color(s_a_height_layer, GColorBlack);
   text_layer_set_text_color(s_a_height_layer, GColorWhite);
   text_layer_set_text(s_a_height_layer, "Height: ... m.ü.M");
